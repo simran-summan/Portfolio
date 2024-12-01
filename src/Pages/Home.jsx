@@ -6,7 +6,7 @@ import AboutMe from './About';
 const HomePage = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '../../public/resume.pdf';
+    link.href = '../assets/resume.pdf';
     link.download = 'Simran_Resume.pdf';
     link.click();
   };
