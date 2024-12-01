@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "../Components/ui/MovingBorder";
 // import { Brands } from "../../public/html";
+import cLogo from '../assets/c-logo.png';
 
 const Skills = () => {
   return (
@@ -58,7 +59,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-8 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/c-logo.png" alt="" />
+          <img src={cLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">
             C
           </h1>
