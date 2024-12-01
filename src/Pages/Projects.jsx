@@ -56,7 +56,7 @@ const Projects=()=> {
       <h2 className="text-5xl font-bold text-center text-[#5f58c4] mb-2 font-serif pt-28">
           Projects
         </h2>
-        <div className="grid grid-cols-2 px-14">
+        <div className="md:grid md:grid-cols-2 px-14">
       {project.map((item, index) => (
         <CardContainer className="inter-var" key={index}>
           <CardBody className="relative group/card hover:shadow-2xl hover:shadow-purple-500/[0.1] bg-black border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border"> 

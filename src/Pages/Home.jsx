@@ -50,7 +50,7 @@ const HomePage = () => {
             bg-clip-text text-transparent 
             bg-gradient-to-b from-neutral-50 to-neutral-400"
             >
-            Hi, I'm <span className='bg-clip-text text-transparent bg-gradient-to-b from-[#8f87e1] to-[#453e9a]'>Simran Summan</span>
+            Hi, I'm <span className='bg-clip-text text-transparent bg-gradient-to-b from-[#8f87e1] to-[#453e9a]'>Simran</span>
           </h1>
 
           {/* Subtitle */}

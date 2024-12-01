@@ -7,11 +7,11 @@ const Skills = () => {
   return (
     <div className="min-h-screen bg-black py-24  w-full font-sans md:px-10 h-full bg-dot-white/[0.2] relative ">
         <div className="absolute pointer-events-none inset-0  bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
-        <div className="mx-20">
+        <div className="mx-5 md:mx-20">
       <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#afa9f1] to-[#6e68b8] mb-8 font-serif">
         Languages:
       </h2>
-      <div className="grid grid-cols-6">
+      <div className="md:grid md:grid-cols-6 space-y-4 space-x-3 md:space-y-0 md:space-x-0">
         <Button
           borderClassName="bg-[radial-gradient(var(--yellow-500)_40%,transparent_70%)]"
           
@@ -78,7 +78,7 @@ const Skills = () => {
       <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#afa9f1] to-[#6e68b8] mb-8 font-serif mt-8">
         Libraries:
       </h2>
-      <div className="grid grid-cols-6">
+      <div className="md:grid md:grid-cols-6 space-y-4 space-x-3  md:space-y-0 md:space-x-0">
         <Button
           borderClassName="bg-[radial-gradient(var(--blue-500)_40%,transparent_70%)]"
           

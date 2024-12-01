@@ -30,7 +30,7 @@ export const Timeline = ({
       ref={containerRef}>
         <div className="absolute pointer-events-none inset-0  bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)]"></div>
       <div className="max-w-7xl mx-auto pt-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-5xl md:text-6xl text-center font-bold font-serif bg-clip-text text-transparent bg-gradient-to-b from-[#8f87e1] to-[#453e9a]">
+        <h2 className="text-5xl md:text-6xl md:text-center font-bold font-serif bg-clip-text text-transparent bg-gradient-to-b from-[#8f87e1] to-[#453e9a]">
           Education
         </h2>
         {/* <p

@@ -43,9 +43,9 @@ const Contact = () => {
   return (
     <section className="bg-black text-white py-20 px-6 md:px-12 lg:px-20 w-full dark:bg-grid-black/[0.2] bg-grid-white/[0.2] relative flex items-center justify-center font">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] "></div>
-      <div className="container mx-auto p-8 rounded-xl shadow-lg space-x-16 flex flex-col md:flex-row items-start">
+      <div className="container mx-auto p-8 rounded-xl shadow-lg md:space-x-16 flex flex-col md:flex-row items-start">
         {/* Contact Information */}
-        <div className="w-[50%] md:pr-8 space-y-6 pl-10 pt-[4rem]">
+        <div className="md:w-[50%] md:pr-8 space-y-6 md:pl-10 pt-[4rem]">
           <div className="space-y-4 ">
             <h2 className="text-4xl font-bold text-[#6C63E1] mb-3 font-serif">
               Contact Me
@@ -78,7 +78,7 @@ const Contact = () => {
             </div>
 
 
-            <div className="flex space-x-12  ml-24 absolute bottom-[10rem]">
+            <div className="flex space-x-12  md:ml-24 md:absolute md:bottom-[10rem]">
               {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/simran-summan-42b747246/"
@@ -131,7 +131,7 @@ const Contact = () => {
           </div>
         </div>
         {/* Contact Form */}
-        <div className="w-[40%] space-y-6 mt-16">
+        <div className="w-full md:w-[40%] md:space-y-6 mt-16">
           {/* <h2 className="text-4xl font-bold text-[#6C63E1] mb-3 font-serif">
             Send Me A Message
           </h2> */}

@@ -22,26 +22,26 @@ const Footer = () => {
             <div className="text-center">
               <div className="md:flex space-y-3 md:space-y-0 lg:space-x-20">
               <Link
-                className="text-2xl md:text-md hover:text-white transition-colors md:flex-none flex justify-center"
+                className="text-2xl md:text-lg hover:text-white transition-colors md:flex-none flex justify-center"
                 to={'/'}
                 >
                 Home
               </Link>
               <Link
                 to={'/skills'}
-                className="text-2xl md:text-md hover:text-white transition-colors md:flex-none flex justify-center"
+                className="text-2xl md:text-lg hover:text-white transition-colors md:flex-none flex justify-center"
                 >
                 Skills
               </Link>
               <Link
                 to={'/projects'}
-                className="text-2xl md:text-md hover:text-white transition-colors md:flex-none flex justify-center"
+                className="text-2xl md:text-lg hover:text-white transition-colors md:flex-none flex justify-center"
                 >
                 Project
               </Link>
               <Link
                 to={'/contact'}
-                className="text-2xl md:text-md hover:text-white transition-colors md:flex-none flex justify-center"
+                className="text-2xl md:text-lg hover:text-white transition-colors md:flex-none flex justify-center"
                 >
                 Contact
               </Link>
@@ -100,7 +100,6 @@ const Footer = () => {
               </svg>
             </a>
             </div>
-  
           </div>
         </div>
       </footer>
