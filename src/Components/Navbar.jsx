@@ -50,7 +50,7 @@ const Navbar = () => {
         className={`
           ${isMobileMenuOpen ? 'block' : 'hidden'} 
           md:hidden 
-          bg-gradient-to-b from-[#000000] to-[#1b1b1c]
+          bg-[#000000]
           backdrop-blur-md 
           shadow-md 
           absolute 
