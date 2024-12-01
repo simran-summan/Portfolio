@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <section id="about" className="bg-black pt-64">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
-        <h2 className="text-6xl font-bold md:text-center md:mb-12 font-serif sm:text-7xl relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-[#8f87e1] to-[#453e9a] md:py-8">
+        <h2 className="text-5xl font-bold md:text-center md:mb-12 font-serif sm:text-7xl relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-[#8f87e1] to-[#453e9a] md:py-8">
           About Me
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
@@ -15,7 +15,7 @@ const AboutMe = () => {
           <img src={logoSrc} alt="Logo" className='hidden md:block animate-slideIn w-[20%] absolute z-0 bottom-[-29rem] left-28 opacity-70' />;
           <div className="md:w-[60%] m-auto z-50">
           
-            <p className="text-3xl md:text-start text-gray-400 leading-relaxed mb-6 font-serif">
+            <p className="text-2xl md:text-start text-gray-400 leading-relaxed mb-6 font-serif">
               I am <strong>Simran Summan</strong> an aspiring <strong>frontend developer</strong> with hands-on experience in building dynamic and
               responsive web applications using <strong>React.js</strong>, <strong>Tailwind CSS</strong>, and <strong>Redux</strong>.  
               Proficient in <strong>JavaScript</strong> and various modern frontend technologies, I am currently in the final
