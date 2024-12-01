@@ -8,7 +8,7 @@ const HomePage = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resume;
-    link.download = 'Simran_Resume.pdf';
+    link.download = 'SimranResume.pdf';
     link.click();
   };
 
