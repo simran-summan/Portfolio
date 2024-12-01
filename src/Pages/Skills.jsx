@@ -2,7 +2,15 @@
 import React from "react";
 import { Button } from "../Components/ui/MovingBorder";
 // import { Brands } from "../../public/html";
+import htmlLogo from '../assets/html-logo.png';
+import javaLogo from '../assets/java-logo.png';
+import jsLogo from '../assets/js-logo.png';
+import pythonLogo from '../assets/python-logo.png';
+import reactLogo from '../assets/react-logo.png';
+import reduxLogo from '../assets/redux-logo.png';
 import cLogo from '../assets/c-logo.png';
+import cssLogo from '../assets/css-logo.png';
+import tailwindLogo from '../assets/tailwind-logo.png';
 
 const Skills = () => {
   return (
@@ -19,7 +27,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-8 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/js-logo.png" alt="" />
+          <img src={jsLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">
             Javascript
           </h1>
@@ -30,7 +38,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-8 text-white border-slate-800 flex-col"
         >
-          <img src="../../public/css-logo.png" alt="" />
+          <img src={cssLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">CSS</h1>
         </Button>
         <Button
@@ -39,7 +47,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-8 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/html-logo.png" alt="" />
+          <img src={htmlLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">HTML</h1>
         </Button>
         <Button
@@ -48,7 +56,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-9 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/java-logo.png" alt="" />
+          <img src={javaLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">
             Java
           </h1>
@@ -70,7 +78,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-6 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/python-logo.png" alt="" />
+          <img src={pythonLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">
             Python
           </h1>
@@ -86,7 +94,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-6 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/react-logo.png" alt="" />
+          <img src={reactLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">
             React
           </h1>
@@ -97,7 +105,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-6 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/tailwind-logo.png" alt="" />
+          <img src={tailwindLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300 pt-6">
             TailwindCSS
           </h1>
@@ -108,7 +116,7 @@ const Skills = () => {
           borderRadius="1.75rem"
           className="p-6 text-white border-slate-800 flex-col"
           >
-          <img src="../../public/redux-logo.png" alt="" />
+          <img src={reduxLogo} alt="" />
           <h1 className="text-2xl font-semibold text-neutral-300">
             Redux
           </h1>
