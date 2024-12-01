@@ -2,11 +2,12 @@ import React, { useEffect } from 'react';
 import { Spotlight } from '../Components/ui/Spotlight';
 import { Button } from '../Components/ui/Button';
 import AboutMe from './About';
+import resume from "../assets/resume.pdf";
 
 const HomePage = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '../assets/resume.pdf';
+    link.href = resume;
     link.download = 'Simran_Resume.pdf';
     link.click();
   };
